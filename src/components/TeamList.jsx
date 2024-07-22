@@ -2,7 +2,8 @@ export const TEAM_LIST = [
   {
     id: 1,
     team_name: "Mercedes-AMG Petronas Formula One Team",
-    // image: Mercedes,
+    image:
+      "https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/2018-redesign-assets/team%20logos/mercedes",
   },
   {
     id: 2,
