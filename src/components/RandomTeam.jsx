@@ -22,7 +22,7 @@ export default function RandomTeam() {
   return (
     <div className="random-team-container">
       <h1>Formula One Team Randomizer!</h1>
-      <h2>You can either choose a team or generate a random driver.</h2>
+      <h2>You can either choose a team or generate a random driver!!!!</h2>
       <button onClick={handleGenerateTeam}>Generate Team</button>
       <button onClick={handleGenerateDriver}>Generate Driver</button>
       <h3 className="display-team">Team: {team.team_name}</h3>
