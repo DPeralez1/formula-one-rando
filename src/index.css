@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+Button {
+    margin: 10px;
+}
+
+.random-team-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 80vw; /* Max width for the container */
+    margin: auto;
+}
+
+.display-team-image img, .display-driver-image img {
+    width: 100%;
+    height: auto;
+    max-width: 500px; /* Max width for the images */
+}
+
+@media (max-width: 768px) {
+    .display-team-image img, .display-driver-image img {
+        max-width: 90%; /* Shrink images on medium screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .display-team-image img, .display-driver-image img {
+        max-width: 80%; /* Further shrink images on small screens */
+    }
+}
